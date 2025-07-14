@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body
+{
+    background-color: #dddfdf;
+}
+
+.container
+{
+    width: 580px;
+    margin: 0 auto;
+}
+
+.box
+{
+    margin-top: 100px;
+    padding: 45px;
+    background-color: #eaeced;
+    border-radius: 15px;
+    width: 500px;
+    padding-bottom: 30px;
+    box-shadow: 0px 5px 20px 0px rgb(128, 126, 126);
+}
+
+.social-media
+{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 10px;
+}
+
+#linkedin
+{
+    width: 40px;
+    transition: 0.5s;
+}
+
+#linkedin:hover
+{
+    width: 50px;
+}
+
+#github
+{
+    width: 32px;
+    transition: 0.5s;
+}
+
+#github:hover
+{
+    width: 42px;
+}
+
+.picture-box
+{
+    text-align: center;
+    width: 100%;
+}
+
+.main-picture
+{
+    width: 125px;
+    border-radius: 50%;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+hr
+{
+    border: 3px solid;
+}
+
+h2
+{
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#full-stack
+{
+    background-color: gold;
+    padding: 5px;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+#description
+{
+    font-size: 18px;
+    font-family: "Inter";
+    text-align: center;
+}
+
+#likes
+{
+    background-color: gold;
+    font-weight: 800;
+    padding: 5px 13px 5px 13px;
+}
+.grid-img
+{
+    width: 50px;
+}
+.grid-tools
+{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
